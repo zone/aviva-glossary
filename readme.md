@@ -1,4 +1,4 @@
-# Zone: Glossary
+# Aviva: Glossary
 
 A web app which provides succinct explanations of common industry terms and terms specific to Zone.
 
@@ -15,3 +15,7 @@ Run `npm install` - This will install all the required packages.
 ## Development
 
 Run `gulp`. This will start the server, build processes and watch files for changes.
+
+# Aviva: Glossary
+
+Created by [Zone Limited](http://zonedigital.com)
