@@ -1,33 +1,27 @@
 .app {
     margin-top: 2em;
+    clear: both;
 
     &__loader {
         padding: 0 0 2rem;
     }
 
     &__intro {
+        padding-top: 5em;
         margin-bottom: 2rem;
+
+        @media all and (max-width: 600px) {
+            padding-top: 2em;
+        }
     }
 
     &__logo {
         display: inline-block;
         margin-top: 1.5rem;
-    }
 
-    &__title {
-        margin-top: 3rem;
-        margin-bottom: 2rem;
-
-        font-size: 3rem;
-        font-weight: 300;
-        line-height: 1em;
-        text-transform: uppercase;
-
-        strong {
+        svg {
             display: block;
-
-            color: $color-aqua;
-            font-weight: 600;
+            width: 150px;
         }
     }
 

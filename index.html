@@ -21,13 +21,17 @@
             <div class="container">Sorry, you'll need to <a href="http://whatbrowser.org/">update your browser</a> to view this page.</div>
         </div>
         <div class="container">
-            <img src="images/aviva-logo.gif" class="header__image">
+            <header class="header">
+                <a href="http://aviva.com" class="header__link">
+                    <img src="images/aviva-logo.gif" class="header__image">
+                </a>
+                <h1 class="header__title">
+                    <span class="em">Aviva</span> Glossary
+                </h1>
+            </header>
             <div class="app" data-ng-controller="EntriesCtrl">
-                <h1 class="app__title">Aviva <strong>Glossary</strong></h1>
-
                 <p class="app__intro">Digital terminology can be a minefield, comprising a bewildering mix of industry-specific terms, technical acronyms, marketing buzzwords... and the odd bit of made-up twaddle. That’s why, here at Aviva, we've created a comprehensive online digital dictionary for you to bookmark as a handy reference guide.</p>
-                <p>From A/B testing to ZWAG, you’ll find a succinct explanation here, together with links to related terms. This guide was created for the benefit of all those who work for us and with us, but we hope it’s helpful for anyone involved in the wonderful and ever-evolving world of digital.</p>
-                <p>So to get Zone's clear, factual perspective on digital, simply search by term or discipline.</p>
+                <p>From A/B testing to insurance sales terms, you’ll find a succinct explanation here, together with links to related terms. This guide was created for the benefit of all those who work for us and with us, but we hope it’s helpful for anyone involved in the wonderful and ever-evolving world of insurance and financial brokering.</p>
 
                 <div class="app__loader">Loading glossary data...</div>
 
@@ -101,28 +105,15 @@
 
                     <footer class="app__footer">
                         <p>JavaScript is required to load this guide. Alternatively, you can <a href="data.json">download the guide</a> as JSON.</p>
-                        <p>Conceived and produced by <a href="http://www.zonedigital.com" target="_blank">Zone Limited</a>
+                        <p>Conceived and produced by <a href="http://www.zonedigital.com" target="_blank">Zone Limited</a></p>
                         <a href="http://zonedigital.com" class="app__logo" title="Visit the Zone website" target="_blank">
-                            <svg version="1.1" id="zwag-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-122 114.6 596 367.7" enable-background="new -122 114.6 596 367.7" xml:space="preserve" aria-labelledby="title" aria-describedby="desc" role="img">
-                                <title>Zone Glossary</title>
-                                <desc>Zone logo on purple</desc>
-                            <g>
-                                <g>
-                                    <path fill="#434495" d="M245.7,298.4c0,101.5-82.3,183.9-183.9,183.9C-39.7,482.3-122,400-122,298.4
-                                        c0-101.5,82.3-183.9,183.9-183.9C163.4,114.6,245.7,196.9,245.7,298.4z"/>
-                                    <path fill="#FFFFFF" d="M-17.4,323.8h-29.9l40.8-50.7v-4.6h-49.7v20.1h4.1c2-13.2,2.8-15.3,7.9-15.3h26.6L-58.3,324v4.6h52.2
-                                        v-21.5h-4.1C-11.9,321.2-12.6,323.8-17.4,323.8z"/>
-                                    <path fill="#FFFFFF" d="M28.8,267.2c-15.2,0-28.2,12.9-28.2,31.9c0,18.7,12.3,30.6,28.2,30.6C44,329.7,57,316.9,57,298
-                                        C57,279.3,44.7,267.2,28.8,267.2z M29.2,324.8c-9.5,0-19.2-8-19.2-26.2c0-18,8.8-26.6,18.5-26.6c9.5,0,19.2,8.1,19.2,26.3
-                                        C47.6,316.4,38.8,324.8,29.2,324.8z"/>
-                                    <path fill="#FFFFFF" d="M118,286.5c0-12.8-5.9-19.2-16.6-19.2c-7,0-15.6,3.8-23,16.8v-15.6H59.7v5.4H70v49.2H59.7v5.4h28.5v-5.4
-                                        h-9.5v-29.2c0-7.7,8.8-19.5,19-19.5c3.1,0,5.9,0.7,8.1,3c2.7,2.7,3.5,7.3,3.5,13.9v31.8h-9.5v5.4h28.3v-5.4H118V286.5L118,286.5z"
-                                        />
-                                    <path fill="#FFFFFF" d="M157.7,267.2c-15.2,0-27.8,13.3-27.8,31.9c0,18.3,11.1,30.6,27.8,30.6c11.7,0,20.2-6.4,24-18.3h-5
-                                        c-3.7,9.6-10.2,12.3-17.6,12.3c-11.4,0-19.7-8.7-19.8-25h42.9C182.5,282.8,174.7,267.2,157.7,267.2z M139.5,293.4
-                                        c1.4-13.3,8.4-21.3,17.9-21.3c9.1,0,14.5,7.6,15.5,21.3H139.5z"/>
-                                </g>
-                            </g>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+                                <defs>
+                                    <style>.cls-1{fill:#424297;}.cls-2{fill:#fff;}</style>
+                                </defs>
+                                <title>Zone</title>
+                                <path class="cls-1" d="M150,75A75,75,0,1,1,75,0,75,75,0,0,1,150,75Z"/>
+                                <path class="cls-2" d="M42.66,85.32H30.49L47.14,64.63V62.75H26.84v8.19H28.5c.83-5.37,1.16-6.25,3.2-6.25H42.55L26,85.38v1.88h21.3V78.46H45.6C44.87,84.27,44.6,85.32,42.66,85.32Z"/><path class="cls-2" d="M61.49,62.25c-6.2,0-11.51,5.25-11.51,13s5,12.5,11.51,12.5c6.2,0,11.51-5.2,11.51-12.95S68,62.25,61.49,62.25Zm.17,23.52c-3.87,0-7.86-3.27-7.86-10.68s3.6-10.84,7.53-10.84S69.18,67.56,69.18,75,65.59,85.77,61.66,85.77Z"/><path class="cls-2" d="M97.88,70.11c0-5.2-2.43-7.86-6.75-7.86-2.88,0-6.36,1.55-9.41,6.86V62.75H74.08V65h4.2V85h-4.2v2.21H85.71V85H81.83V73.15c0-3.16,3.6-8,7.75-8a4.3,4.3,0,0,1,3.32,1.22c1.11,1.1,1.44,3,1.44,5.7V85H90.46v2.21H102V85H97.88V70.11Z"/><path class="cls-2" d="M114.08,62.25c-6.2,0-11.34,5.42-11.34,13s4.54,12.5,11.34,12.5c4.75,0,8.24-2.6,9.79-7.47h-2c-1.49,3.93-4.15,5-7.19,5-4.65,0-8-3.54-8.08-10.18H124C124.21,68.61,121,62.25,114.08,62.25Zm-7.42,10.68c.56-5.42,3.43-8.68,7.31-8.68,3.7,0,5.92,3.1,6.3,8.68Z"/>
                             </svg>
                             <span class="visually-hidden">Link opens in a new window</span>
                         </a>
